@@ -1,5 +1,3 @@
-package C;
-
 public class SinFunctionC extends FunctionC{
     
     public SinFunctionC(double p){

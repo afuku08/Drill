@@ -1,5 +1,3 @@
-package C;
-
 public class TestFunctionC {
     public static void main(String[] args) {
         FunctionC f = new FunctionC(0);

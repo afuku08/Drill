@@ -1,5 +1,3 @@
-package C;
-
 public class SquareFunctionC extends FunctionC{
     protected double b = 0;
     protected double c = 0;

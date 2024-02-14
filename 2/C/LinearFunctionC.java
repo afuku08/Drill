@@ -1,5 +1,3 @@
-package C;
-
 public class LinearFunctionC extends FunctionC{
     protected double b = 0;
 

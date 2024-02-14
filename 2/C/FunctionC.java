@@ -1,11 +1,10 @@
-package C;
-
 public class FunctionC {
     protected double a = 0;
 
-    public FunctionC(double p) {
+    protected FunctionC(double p) {
         a = p;
     }
+
     public double apply(double x) {
         return a;
     }
