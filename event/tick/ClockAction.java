@@ -1,14 +1,12 @@
-import javax.swing.AbstractAction;
-import javax.swing.Action;
 import javax.swing.*;
-import javax.awt.event.*;
+import java.awt.event.*;
 
 public class ClockAction extends AbstractAction{
     ClockMethods target;
 
     ClockAction(String name,int action_code,ClockMethods clock){
         putValue(Action.NAME, name);
-        putValue("action_code", new Integer(action_code));
+        putValue("action_code", Integer.valueOf(action_code));
         target = clock;
     }
 

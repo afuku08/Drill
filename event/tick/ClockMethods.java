@@ -5,27 +5,27 @@ public  interface ClockMethods {
     static final int RESET_CLOCK   = 4;
     static final int DEFAULT_CLOCK = 5;
 
-    /* ŽžŒv‚Ì“®‚«‚ðŠJŽn‚³‚¹‚é */
+    /* æ™‚è¨ˆã®å‹•ãã‚’é–‹å§‹ã•ã›ã‚‹ */
     public void startClock();
 
-    /* ŽžŒv‚Ì“®‚«‚ð’âŽ~‚³‚¹‚é */
+    /* æ™‚è¨ˆã®å‹•ãã‚’åœæ­¢ã•ã›ã‚‹ */
     public void stopClock();
 
-    /* ƒCƒxƒ“ƒg‚ðŽó‚¯‚ÄŒ»ÝŽž‚ði‚ß‚é */
+    /* ã‚¤ãƒ™ãƒ³ãƒˆã‚’å—ã‘ã¦ç¾åœ¨æ™‚åˆ»ã‚’é€²ã‚ã‚‹ */
     public void tickClock();
 
-    /* ŽžŒv‚ðƒŠƒZƒbƒg‚·‚éi0Žž0•ª0•b‚É‚ ‚í‚¹‚éj */
+    /* æ™‚è¨ˆã‚’ãƒªã‚»ãƒƒãƒˆã™ã‚‹ï¼ˆ0æ™‚0åˆ†0ç§’ã«ã‚ã‚ã›ã‚‹ï¼‰ */
     public void resetClock();
 
-    /* ŽžŒv‚ðƒVƒXƒeƒ€Žž‚É‚ ‚í‚¹‚é */
+    /* æ™‚è¨ˆã‚’ã‚·ã‚¹ãƒ†ãƒ æ™‚åˆ»ã«ã‚ã‚ã›ã‚‹ */
     public void defaultClock();
 
-    /* ŽžŒv‚ÌŽž‚ð—^‚¦‚ç‚ê‚½Žž•ª•b‚É‚ ‚í‚¹‚é */
+    /* æ™‚è¨ˆã®æ™‚åˆ»ã‚’ä¸Žãˆã‚‰ã‚ŒãŸæ™‚åˆ†ç§’ã«ã‚ã‚ã›ã‚‹ */
     public void setTime(Time t);
 
-    /* Œ»ÝŽž‚ðŽæ‚èo‚· */
+    /* ç¾åœ¨æ™‚åˆ»ã‚’å–ã‚Šå‡ºã™ */
     public void getTime(Time t);
 
-    /* ŽžŒv‚Ì•\Ž¦—pƒIƒuƒWƒFƒNƒg‚ðÝ’è‚·‚é */
+    /* æ™‚è¨ˆã®è¡¨ç¤ºç”¨ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è¨­å®šã™ã‚‹ */
     public void setViewer(Object viewer);
 }

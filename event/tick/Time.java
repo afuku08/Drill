@@ -1,9 +1,9 @@
 public class Time {
-    /*  */
+    /* æ™‚ */
     public int hour;
-    /* •ª */
+    /* åˆ† */
     public int minute;
-    /* •b */
+    /* ç§’ */
     public int second;
     
     Time(int h,int m,int s) {
@@ -12,14 +12,14 @@ public class Time {
         second = s;
     }
 
-    /* ‚ğİ’è‚·‚é */
+    /* æ™‚åˆ»ã‚’è¨­å®šã™ã‚‹ */
     public synchronized void setTime(Time cp) {
         hour = cp.hour;
         minute = cp.minute;
         second = cp.second;
     }
 
-    /* ‚ğæ‚èo‚· */
+    /* æ™‚åˆ»ã‚’å–ã‚Šå‡ºã™ */
     public synchronized void getTime(Time cp) {
         cp.hour = hour;
         cp.minute = minute;
